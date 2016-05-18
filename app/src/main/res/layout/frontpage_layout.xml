@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/myName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Holla!!"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:textSize="100dp"
+        android:layout_marginTop="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <ImageView
+        android:id="@+id/myPotrait"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/adventuretime"
+        android:layout_centerHorizontal="true"
+        />
+
+</LinearLayout>

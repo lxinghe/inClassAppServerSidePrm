@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.lu_xi.hw2pre.MainActivity">
+
+    <ImageView
+        android:id="@+id/frozen"
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:src="@drawable/potrait"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/myName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xinghe Lu"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course enrolled: CIS600"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/myName"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.lu_xi.hw2pre.MainActivity">
+
+    <ImageView
+        android:id="@+id/bigpic"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/tumblr_static_qat_header"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/thankyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank Your!!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/rights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Rights Reserved!!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp" />
+
+
+</RelativeLayout>
